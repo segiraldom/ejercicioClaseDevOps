@@ -3,4 +3,5 @@ on: [push]
 jobs: 
   hello-world:
   runs-on: ubuntu-latest
-     - run: echo "Hello world"
+  steps: 
+     - run: ls -la
